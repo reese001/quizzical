@@ -9,7 +9,7 @@ export default function QuestionsScreen(props) {
                         <h3 className="text-2xl text-[#293264]">{decode(question.question)}</h3>
                         {question.allAnswers.map((answer) => {
                             return (
-                                <button>{answer}</button>
+                                <button className=''>{answer}</button>
                             )
                         })}
                     </div>
